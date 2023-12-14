@@ -286,7 +286,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-background_image_path = os.path.join('images', 'background.png')
+background_image_path = os.path.join('images', 'logo.png')
 
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
